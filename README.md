@@ -7,37 +7,38 @@ This project demonstrates a complete end-to-end data analysis workflow, starting
 
 The goal of this project is to:
 
-Combine and clean multi-year bike share data
+- Combine and clean multi-year bike share data
 
-Perform cost and profit calculations using SQL
+- Perform cost and profit calculations using SQL
 
-Build an interactive Power BI dashboard for business insights
+- Build an interactive Power BI dashboard for business insights
 
-This mirrors a real-world analytics workflow used in data analyst and business intelligence roles.
+- This mirrors a real-world analytics workflow used in data analyst and business intelligence roles.
 
 🗂️ Project Files
 File	Description
-SQLQuery1.sql	SQL script used for data merging, transformation, and profit analysis
-End to End Data Analysis.pbix	Power BI report built on top of the SQL output
+- SQLQuery1.sql	SQL script used for data merging, transformation, and profit analysis
+- End to End Data Analysis.pbix	Power BI report built on top of the SQL output
+
 🧠 Data Processing (SQL)
 
 The SQL script performs the following steps:
 
 Uses a CTE (Common Table Expression) to:
 
-Combine multiple yearly bike-share tables using UNION
+- Combine multiple yearly bike-share tables using UNION
 
-Joins operational data with a cost table
+- Joins operational data with a cost table
 
 Calculates:
 
-Revenue
+1. Revenue
 
-Costs
+2. Costs
 
-Profit metrics
+3. Profit metrics
 
-Produces a clean, analysis-ready dataset for visualization
+4. Produces a clean, analysis-ready dataset for visualization
 
 This step ensures that all business logic lives in SQL before visualization.
 
@@ -45,31 +46,31 @@ This step ensures that all business logic lives in SQL before visualization.
 
 The Power BI report includes:
 
-Key performance indicators (KPIs)
+- Key performance indicators (KPIs)
 
-Revenue
+ Revenue
 
-Cost
+- Cost
 
-Profit
+- Profit
 
-Trend analysis across years
+- Trend analysis across years
 
-Clean, interactive visuals for decision-making
+- Clean, interactive visuals for decision-making
 
-A dashboard layout suitable for stakeholders
+- A dashboard layout suitable for stakeholders
 
-The .pbix file connects to the processed data and turns it into actionable insights.
+- The .pbix file connects to the processed data and turns it into actionable insights.
 
 🛠️ Tools & Technologies
 
-SQL (CTEs, joins, aggregations)
+1. SQL (CTEs, joins, aggregations)
 
-Power BI
+2. Power BI
 
-Relational databases
+3. Relational databases
 
-Business analytics & reporting
+4. Business analytics & reporting
 
 🚀 How to Use This Project
 
@@ -81,14 +82,5 @@ Refresh the data connection if needed
 
 Explore the dashboard and insights
 
-📈 Skills Demonstrated
+Have fun :)
 
-End-to-end data analysis
-
-SQL data modeling and transformations
-
-Business logic implementation
-
-Data visualization & storytelling
-
-Translating raw data into business insights
